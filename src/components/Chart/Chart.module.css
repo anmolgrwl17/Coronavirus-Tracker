@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      width: 100%;
+    }
+  }
